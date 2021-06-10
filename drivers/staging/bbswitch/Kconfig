@@ -1,0 +1,5 @@
+config BBSWITCH
+    tristate "Support dynamically disabling Nvidia Graphics"
+    default n
+    help
+        "bbswitch is a kernel module that automatically detects the necessary ACPI calls to dynamically power off Nvidia Discrete graphics via a sysfs node. Useful for Optimus Laptops, Say N if unsure."
