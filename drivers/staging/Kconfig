@@ -104,6 +104,4 @@ source "drivers/staging/wfx/Kconfig"
 
 source "drivers/staging/hikey9xx/Kconfig"
 
-source "drivers/staging/bbswitch/Kconfig"
-
 endif # STAGING
