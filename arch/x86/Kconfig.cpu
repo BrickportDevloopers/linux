@@ -337,6 +337,9 @@ choice
 
 	config OPTIMIZE_FOR_R5_2600
 		bool "AMD Ryzen 5 2600 (Pinnacle Ridge)"
+	
+	config OPTIMIZE_FOR_R9_5950X
+		bool "AMD Ryzen 9 5950X (Vermeer)"
 
 endchoice
 
